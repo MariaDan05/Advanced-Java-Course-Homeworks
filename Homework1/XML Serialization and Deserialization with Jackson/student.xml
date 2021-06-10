@@ -1,0 +1,14 @@
+<Student
+    xmlns="">
+    <firstName>Nick</firstName>
+    <lastName>Jackson</lastName>
+    <grade>90.5</grade>
+    <pets>
+        <pets>
+            <type>dog</type>
+        </pets>
+        <pets>
+            <type>cat</type>
+        </pets>
+    </pets>
+</Student>
