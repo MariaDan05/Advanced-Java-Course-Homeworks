@@ -1,6 +1,6 @@
 package com.picsart.model;
 
-import com.picsart.service.getFolderSizeService;
+import com.picsart.service.FolderSizeService;
 
 import java.io.File;
 
