@@ -20,7 +20,7 @@ public class FolderSizeService {
             if(i != count - 1)
                 System.out.println(length/1024 + "Kb");
             try {
-                Thread.sleep(400);
+                Thread.sleep(300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
