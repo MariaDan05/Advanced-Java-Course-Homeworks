@@ -13,6 +13,6 @@ public class MyRunnable implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(getFolderSizeService.getFolderSize(folder)/1024 + "Kb");
+        System.out.println(FolderSizeService.getFolderSize(folder)/1024 + "Kb");
     }
 }
