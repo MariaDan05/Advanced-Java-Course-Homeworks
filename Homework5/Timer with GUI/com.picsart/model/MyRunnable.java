@@ -1,7 +1,7 @@
 package com.picsart.model;
 
 import com.picsart.service.InvalidInputException;
-import com.picsart.service.PrintValidator;
+import com.picsart.service.OutputValidator;
 
 import javax.swing.*;
 
@@ -27,8 +27,8 @@ public class MyRunnable implements Runnable{
     @Override
     public void run() {
         while (currentMin >= 0 && currentMin <= 59 && currentSec >= 0 && currentSec <= 59) {
-            String str1 = PrintValidator.minutesStyle(currentMin);
-            String str2 = PrintValidator.secondsStyle(currentSec);
+            String str1 = OutputValidator.minutesStyle(currentMin);
+            String str2 = OutputValidator.secondsStyle(currentSec);
             if(currentSec-- == 0){
                 currentSec = 59;
                 currentMin--;
@@ -44,4 +44,3 @@ public class MyRunnable implements Runnable{
     }
 
 }
-
